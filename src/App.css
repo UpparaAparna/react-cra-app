@@ -1,0 +1,79 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Quiz Container */
+.quiz-container {
+  background: white;
+  width: 500px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Question */
+.question {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Option Buttons */
+.option-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+  background-color: #e2e6ff;
+}
+
+.option-btn.selected {
+  background-color: #667eea;
+  color: white;
+  border: none;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #667eea;
+  color: white;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  opacity: 0.85;
+}
+
+/* Result */
+.result {
+  text-align: center;
+}
+
+.result h1 {
+  color: #667eea;
+}
